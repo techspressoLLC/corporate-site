@@ -58,6 +58,16 @@
             opacity: 1;
             transform: translateY(0);
         }
+        /* ヒーローロゴのフェードイン */
+        .hero-logo {
+            opacity: 0;
+            transform: translateY(24px);
+            animation: heroFadeIn 1.1s ease-out 0.2s forwards;
+        }
+        @keyframes heroFadeIn {
+            from { opacity: 0; transform: translateY(24px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
         /* ドロップダウンメニュー（ホバー時に表示） */
         .dropdown-content {
@@ -214,7 +224,7 @@
                     <div class="reveal active">
                         <div class="mb-6 flex justify-center items-center">
                             <!-- ヒーローセクションのロゴ画像 -->
-                            <img src="./pic/TC.JPG" alt="TECHSPRESSO Logo" class="max-w-[70%] md:max-w-[500px] h-auto object-contain" onerror="this.parentElement.innerHTML='<h1 class=\'heading-style text-6xl md:text-[9rem] mb-10 leading-[0.9] text-slate-900 pr-4\'>TECH<span class=\'text-cyan-500\'>SPRESSO</span><span class=\'block text-xl md:text-2xl font-normal opacity-40 mt-4 tracking-[0.3em]\'>LLC</span></h1>'">
+                            <img src="./pic/TC.JPG" alt="TECHSPRESSO Logo" class="max-w-[70%] md:max-w-[500px] h-auto object-contain hero-logo" onerror="this.parentElement.innerHTML='<h1 class=\'heading-style text-6xl md:text-[9rem] mb-10 leading-[0.9] text-slate-900 pr-4\'>TECH<span class=\'text-cyan-500\'>SPRESSO</span><span class=\'block text-xl md:text-2xl font-normal opacity-40 mt-4 tracking-[0.3em]\'>LLC</span></h1>'">
                         </div>
                         <p class="text-slate-500 max-w-2xl mx-auto leading-loose text-sm md:text-base tracking-wide mt-4">
                             最先端のテクノロジーと、最高の一杯を。<br>TECHSPRESSO合同会社は、コーヒーを通じて「クリエイティブな熱量」を抽出します。
@@ -428,7 +438,7 @@
                         <img src="./pic/TC.JPG" alt="Footer Logo" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                         <span class="text-[6px] font-bold text-gray-300 hidden text-center uppercase">TC</span>
                     </div>
-                    <div class="font-en font-black text-xl text-slate-900 uppercase italic">TECHSPRESSO <span class="opacity-30 text-[10px] font-normal tracking-widest uppercase">LLC</span></div>
+                    <div class="font-en font-black text-xl text-slate-900 uppercase not-italic">TECHSPRESSO <span class="opacity-30 text-[10px] font-normal tracking-widest uppercase">LLC</span></div>
                 </div>
                 <p class="text-[9px] text-slate-400 tracking-[0.4em] uppercase flex-1">© 2026 TECHSPRESSO LLC. ALL RIGHTS RESERVED.</p>
                 <div class="flex space-x-8 shrink-0">
