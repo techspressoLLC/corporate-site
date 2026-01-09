@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "slug": "spring-blend-preorder",
+      "date": "2026.03.12",
+      "category": "NEWS",
+      "title": "春の限定ブレンドの先行予約を開始しました。",
+      "excerpt": "数量限定の春ブレンドをオンラインで先行予約いただけます。",
+      "cover": "./pic/news/spring-blend.jpg",
+      "body": [
+        "今年の春限定ブレンドは、華やかな香りとやわらかな甘みを重視した配合です。",
+        "先行予約分は数量限定です。確実に手に入れたい方はお早めにご予約ください。",
+        "- 受付期間: 3/12-3/25",
+        "- お届け予定: 4月上旬"
+      ],
+      "tags": [
+        "LIMITED",
+        "BLEND"
+      ],
+      "externalUrl": "",
+      "pinned": true
+    },
+    {
+      "slug": "corporate-registration",
+      "date": "2026.03.10",
+      "category": "NEWS",
+      "title": "法人登記が完了しました。",
+      "excerpt": "TECHSPRESSO合同会社の法人登記が完了しました。",
+      "cover": "./pic/news/registration.jpg",
+      "body": [
+        "このたび法人登記が完了し、正式にTECHSPRESSO合同会社としてスタートいたしました。",
+        "これからもコーヒーを通じて、皆さまの日常に寄り添う体験を届けてまいります。"
+      ],
+      "tags": [
+        "INFO",
+        "CORPORATE"
+      ],
+      "externalUrl": "",
+      "pinned": false
+    },
+    {
+      "slug": "early-spring-release",
+      "date": "2026.03.01",
+      "category": "PRODUCT",
+      "title": "新作ブレンド「Early Spring」の販売を開始しました。",
+      "excerpt": "春の訪れを感じる軽やかなブレンドを発売しました。",
+      "cover": "./pic/news/early-spring.jpg",
+      "body": [
+        "やさしい酸味と柔らかな甘みが特徴の春限定ブレンドです。",
+        "オンラインショップと店頭の両方でお求めいただけます。"
+      ],
+      "tags": [
+        "PRODUCT",
+        "SEASONAL"
+      ],
+      "externalUrl": "./#online-shop",
+      "pinned": false
+    },
+    {
+      "slug": "spring-tasting-yokohama",
+      "date": "2026.02.20",
+      "category": "EVENT",
+      "title": "春のコーヒー試飲会 in 横浜 を開催決定！",
+      "excerpt": "新作の試飲とハンドドリップ体験を行います。",
+      "cover": "./pic/news/tasting-yokohama.jpg",
+      "body": [
+        "横浜にて春の試飲会イベントを開催します。",
+        "どなたでもご参加いただけますので、ぜひお立ち寄りください。",
+        "- 日時: 2/28 13:00-17:00",
+        "- 会場: 横浜駅周辺スペース"
+      ],
+      "tags": [
+        "EVENT",
+        "TASTING"
+      ],
+      "externalUrl": "https://techspresso.jp/",
+      "pinned": false
+    },
+    {
+      "slug": "shop-maintenance",
+      "date": "2026.02.10",
+      "category": "INFO",
+      "title": "オンラインショップのメンテナンス予定を公開しました。",
+      "excerpt": "一部の購入機能が一時停止します。",
+      "cover": "",
+      "body": [
+        "オンラインショップのメンテナンスを下記日程で実施します。",
+        "- 2/15 01:00-04:00",
+        "- 影響範囲: 決済機能が一時停止"
+      ],
+      "tags": [
+        "INFO"
+      ],
+      "externalUrl": "",
+      "pinned": false
+    },
+    {
+      "slug": "classic-beans-update",
+      "date": "2026.01.15",
+      "category": "PRODUCT",
+      "title": "定番豆ラインナップをアップデートしました。",
+      "excerpt": "人気の定番豆を飲み比べしやすいラインナップに刷新しました。",
+      "cover": "./pic/news/classic-beans.jpg",
+      "body": [
+        "定番ブレンドの焙煎プロファイルを見直し、より飲みやすい味わいにしました。",
+        "ギフト向けのセットも追加しています。"
+      ],
+      "tags": [
+        "PRODUCT"
+      ],
+      "externalUrl": "",
+      "pinned": false
+    }
+  ]
+}
