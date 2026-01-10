@@ -111,7 +111,7 @@
 
             <!-- アクション -->
             <div class="flex items-center space-x-4 shrink-0">
-                <a href="#contact"
+                <a href="javascript:void(0)" onclick="navigateTo('contact')"
                     class="bg-slate-900 text-white text-[10px] font-black px-6 py-2 rounded-full hover:bg-cyan-600 transition uppercase shadow-lg shadow-slate-200">Contact</a>
                 <button id="menu-toggle" class="sm:hidden text-slate-600 p-2"><svg class="w-5 h-5" fill="none"
                         stroke="currentColor" viewBox="0 0 24 24">
@@ -453,6 +453,36 @@
                                     class="flex-1 text-slate-800 font-bold uppercase tracking-tight text-left">Yokohama,
                                     Japan</span></div>
                         </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="page-contact" class="page-content pt-32">
+            <section class="py-32 px-6 bg-white">
+                <div class="container mx-auto max-w-4xl text-left">
+                    <div class="mb-8">
+                        <button onclick="navigateTo('home')"
+                            class="inline-flex items-center text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-slate-900 transition">
+                            <svg class="w-3 h-3 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7"></path>
+                            </svg>
+                            Back to Home
+                        </button>
+                    </div>
+                    <h2 class="heading-style text-4xl md:text-6xl mb-8 uppercase">Contact</h2>
+                    <p class="text-slate-500 text-sm md:text-base leading-loose mb-8">
+                        お問い合わせは下記フォームよりお願いします。
+                    </p>
+                    <div class="rounded-[2.5rem] overflow-hidden border border-slate-200 shadow-sm bg-white">
+                        <iframe
+                            src="https://forms.gle/CSKTgPovdswRD7v7A"
+                            title="Contact Form"
+                            class="w-full h-[900px]"
+                            frameborder="0"
+                            marginheight="0"
+                            marginwidth="0">Loading…</iframe>
                     </div>
                 </div>
             </section>
