@@ -1,30 +1,10 @@
-{
+﻿{
   "items": [
     {
-      "slug": "spring-blend-preorder",
-      "date": "2026.03.12",
-      "category": "NEWS",
-      "title": "春の限定ブレンドの先行予約を開始しました。",
-      "excerpt": "数量限定の春ブレンドをオンラインで先行予約いただけます。",
-      "cover": "./pic/news/spring-blend.jpg",
-      "body": [
-        "今年の春限定ブレンドは、華やかな香りとやわらかな甘みを重視した配合です。",
-        "先行予約分は数量限定です。確実に手に入れたい方はお早めにご予約ください。",
-        "- 受付期間: 3/12-3/25",
-        "- お届け予定: 4月上旬"
-      ],
-      "tags": [
-        "LIMITED",
-        "BLEND"
-      ],
-      "externalUrl": "",
-      "pinned": true
-    },
-    {
       "slug": "corporate-registration",
-      "date": "2026.03.10",
+      "date": "2026.01.15",
       "category": "NEWS",
-      "title": "法人登記が完了しました。",
+      "title": "法人登記が完了しました",
       "excerpt": "TECHSPRESSO合同会社の法人登記が完了しました。",
       "cover": "./pic/news/registration.jpg",
       "body": [
@@ -37,16 +17,38 @@
       ],
       "externalUrl": "",
       "pinned": false
+    }
+  ],
+  "archivedItems": [
+    {
+      "slug": "spring-blend-preorder",
+      "date": "2026.03.12",
+      "category": "NEWS",
+      "title": "春の限定ブレンドの先行予約を開始しました",
+      "excerpt": "数量限定の春ブレンドをオンラインで先行予約いただけます。",
+      "cover": "./pic/news/spring-blend.jpg",
+      "body": [
+        "今年の春限定ブレンドは、華やかな香りとまろやかな甘みを重視した配合です。",
+        "先行予約は数量限定です。確実に手に入れたい方はお早めにご予約ください。",
+        "- 受付期間: 3/12-3/25",
+        "- お届け予定: 4月上旬"
+      ],
+      "tags": [
+        "LIMITED",
+        "BLEND"
+      ],
+      "externalUrl": "",
+      "pinned": true
     },
     {
       "slug": "early-spring-release",
       "date": "2026.03.01",
       "category": "PRODUCT",
-      "title": "新作ブレンド「Early Spring」の販売を開始しました。",
+      "title": "新作ブレンド「Early Spring」を発売しました",
       "excerpt": "春の訪れを感じる軽やかなブレンドを発売しました。",
       "cover": "./pic/news/early-spring.jpg",
       "body": [
-        "やさしい酸味と柔らかな甘みが特徴の春限定ブレンドです。",
+        "みずみずしい酸味と柔らかな甘みが特徴の春限定ブレンドです。",
         "オンラインショップと店頭の両方でお求めいただけます。"
       ],
       "tags": [
@@ -60,7 +62,7 @@
       "slug": "spring-tasting-yokohama",
       "date": "2026.02.20",
       "category": "EVENT",
-      "title": "春のコーヒー試飲会 in 横浜 を開催決定！",
+      "title": "春のコーヒー試飲会 in 横浜を開催します",
       "excerpt": "新作の試飲とハンドドリップ体験を行います。",
       "cover": "./pic/news/tasting-yokohama.jpg",
       "body": [
@@ -80,7 +82,7 @@
       "slug": "shop-maintenance",
       "date": "2026.02.10",
       "category": "INFO",
-      "title": "オンラインショップのメンテナンス予定を公開しました。",
+      "title": "オンラインショップのメンテナンス予定を公開しました",
       "excerpt": "一部の購入機能が一時停止します。",
       "cover": "",
       "body": [
@@ -98,7 +100,7 @@
       "slug": "classic-beans-update",
       "date": "2026.01.15",
       "category": "PRODUCT",
-      "title": "定番豆ラインナップをアップデートしました。",
+      "title": "定番豆ラインナップをアップデートしました",
       "excerpt": "人気の定番豆を飲み比べしやすいラインナップに刷新しました。",
       "cover": "./pic/news/classic-beans.jpg",
       "body": [
