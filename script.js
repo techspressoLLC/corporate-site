@@ -452,4 +452,20 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.hash = '#news';
         });
     }
+
+    const crowdfundingBar = document.getElementById('crowdfunding-bar');
+    const hideCrowdfunding = document.getElementById('crowdfunding-hide');
+    const showCrowdfunding = document.getElementById('crowdfunding-show');
+    if (crowdfundingBar && hideCrowdfunding && showCrowdfunding) {
+        hideCrowdfunding.addEventListener('click', () => {
+            crowdfundingBar.classList.add('hidden');
+            showCrowdfunding.classList.remove('hidden');
+            showCrowdfunding.classList.add('flex');
+        });
+        showCrowdfunding.addEventListener('click', () => {
+            crowdfundingBar.classList.remove('hidden');
+            showCrowdfunding.classList.add('hidden');
+            showCrowdfunding.classList.remove('flex');
+        });
+    }
 });
