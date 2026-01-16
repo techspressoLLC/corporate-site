@@ -49,6 +49,8 @@ const getNewsBadgeClasses = (category) => {
             return 'bg-purple-100 text-purple-800';
         case 'INFO':
             return 'bg-emerald-100 text-emerald-800';
+        case 'IMPORTANT':
+            return 'bg-rose-100 text-rose-700';
         default:
             return 'bg-slate-100 text-slate-600';
     }
@@ -137,7 +139,7 @@ const createNewsCard = (item) => {
     const link = document.createElement('a');
     const slug = item.slug ? encodeURIComponent(item.slug) : '';
     link.href = slug ? `#news/${slug}` : '#news';
-    link.className = 'min-w-[300px] md:min-w-[400px] snap-center shrink-0 reveal block bg-white p-6 rounded-2xl group border border-slate-100 hover:shadow-xl transition duration-500 shadow-sm';
+    link.className = 'min-w-[300px] md:min-w-[400px] snap-center shrink-0 reveal block bg-white p-6 rounded-2xl group border border-slate-100 hover:shadow-xl transition duration-500 shadow-sm relative';
 
     const row = document.createElement('div');
     row.className = 'flex flex-col md:flex-row md:items-center gap-4';
@@ -165,14 +167,20 @@ const createNewsCard = (item) => {
 
     row.appendChild(date);
     if (badgeWrap.childNodes.length) row.appendChild(badgeWrap);
-    if (item.pinned) {
-        const pinnedBadge = document.createElement('span');
-        pinnedBadge.className = 'text-[9px] font-bold uppercase tracking-widest px-2 py-1 rounded-full bg-slate-100 text-slate-600';
-        pinnedBadge.textContent = 'Pinned';
-        row.appendChild(pinnedBadge);
-    }
     row.appendChild(title);
     link.appendChild(row);
+
+    if (item.pinned) {
+        const pinnedBadge = document.createElement('div');
+        pinnedBadge.className = 'absolute top-4 right-4 flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-slate-600';
+        pinnedBadge.innerHTML = `
+            <svg class="w-5 h-5 text-slate-500" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M16 3l-2 2 4 4-2 2-4-4-2 2-4 10 10-4 2-2-4-4 2-2-4-4z"></path>
+            </svg>
+            <span>Pinned</span>
+        `;
+        link.appendChild(pinnedBadge);
+    }
 
     return link;
 };
