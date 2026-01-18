@@ -18,6 +18,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.brand-aria {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
 /* 背景グリチ/
 .bg-grid {
     background-image: radial-gradient(circle, rgba(0,0,0,0.03) 1px, transparent 1px);
