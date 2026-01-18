@@ -46,6 +46,14 @@ if (menuToggle && mobileMenu) {
     });
 }
 
+const closeMobileMenuOnOutsideClick = (event) => {
+    if (!mobileMenu || !mobileMenu.classList.contains('active')) return;
+    const target = event.target;
+    if (mobileMenu.contains(target)) return;
+    if (menuToggle && menuToggle.contains(target)) return;
+    mobileMenu.classList.remove('active');
+};
+
 const NEWS_LIMIT = 10;
 const NEWS_JSON_PATH = './news.json';
 
@@ -463,6 +471,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('hashchange', handleHashRoute);
     document.addEventListener('click', handleFilterClick);
+    document.addEventListener('click', closeMobileMenuOnOutsideClick);
 
     const backButton = document.getElementById('news-back');
     if (backButton) {
